@@ -40,3 +40,7 @@ This stops the stack, and you can choose whether to also remove its data.
 | Alpine | Not tested, need feedback |
 
 If you try it on a distro that isn't tested, please open an issue and say how it went.
+
+## Part of the Proxmox Homelab setup
+
+This installer is used by [Proxmox-Homelab-Automated-Setup-Script](https://github.com/JeffTheTroubleshooter/Proxmox-Homelab-Automated-Setup-Script), which creates an LXC for each app on a Proxmox host and runs this script inside it.
